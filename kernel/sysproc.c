@@ -110,3 +110,10 @@ sys_trace(void)
     //printf("sys_trace: Hi n is %d\n", n);
     return 0;
 }
+
+uint64
+sys_sysinfo(void)
+{
+    printf("sysinfo hi\n");
+    return 0;
+}
