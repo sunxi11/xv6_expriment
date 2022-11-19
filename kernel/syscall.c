@@ -145,8 +145,8 @@ syscall(void)
   struct proc *p = myproc();
 
   num = p->trapframe->a7;
-  if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
-      printf("%s 被调用\n",%syscall_name[num-1]);
+  if(num > 0 && num < NELEM(syscalls) && syscalls[num]){
+      printf("%s 被调用\n",syscall_name[num-1]);
     p->trapframe->a0 = syscalls[num]();
   } else {
     printf("%d %s: unknown sys call %d\n",
