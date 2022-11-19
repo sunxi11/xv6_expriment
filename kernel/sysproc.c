@@ -122,7 +122,7 @@ sys_sysinfo(void)
     info.nproc = -1;
     info.freemem = -2;
 
-    if(argaddr(1, &st) < 0)
+    if(argaddr(1, &addr) < 0)
         return -1;
 
 
