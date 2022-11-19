@@ -132,7 +132,7 @@ static uint64 (*syscalls[])(void) = {
 [SYS_trace]   sys_trace,
 };
 
-static char *syscall_name = {
+static char *syscall_name[]= {
         "fork", "exit", "wait", "pipe", "read", "kill", "exec", "fstat", "chdir", "dup", "getpid", "sbrk", "sleep",
         "uptime", "open", "write", "mknod", "unlink", "link", "mkdir", "close", "trace"
 };
