@@ -132,3 +132,11 @@ printfinit(void)
   initlock(&pr.lock, "pr");
   pr.locking = 1;
 }
+
+void
+backtrace()
+{
+    printf("backtrace:\n");
+    u_int64 fp = r_fp();
+    printf("fp: %p", fp);
+}
