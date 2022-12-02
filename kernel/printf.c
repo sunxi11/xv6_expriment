@@ -137,6 +137,6 @@ void
 backtrace()
 {
     printf("backtrace:\n");
-    u_int64 fp = r_fp();
-    printf("fp: %p", fp);
+    uint64 fp = r_fp();
+    printf("fp: %p\n", fp);
 }

@@ -16,7 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec4873c-8c42-4ac6-a556-9180548499e7" name="Changes" comment="xargs 实验">
-      <change beforePath="$PROJECT_DIR$/user/bttest.c" beforeDir="false" afterPath="$PROJECT_DIR$/user/bttest.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/defs.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/defs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/printf.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/printf.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,7 @@
       <workItem from="1668997500448" duration="11995000" />
       <workItem from="1669449616678" duration="6893000" />
       <workItem from="1669546998718" duration="599000" />
-      <workItem from="1669970520680" duration="2295000" />
+      <workItem from="1669970520680" duration="2690000" />
     </task>
     <task id="LOCAL-00001" summary="质数实验">
       <created>1668691338556</created>
