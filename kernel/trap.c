@@ -28,6 +28,19 @@ trapinithart(void)
 {
   w_stvec((uint64)kernelvec);
 }
+void
+store()
+{
+    struct proc* p = myproc();
+    p->tick_a0 = p->trapframe->a0;
+    p->tick_a1 = p->trapframe->a1;
+    p->tick_a2 = p->trapframe->a2;
+    p->tick_a3 = p->trapframe->a3;
+    p->tick_a4 = p->trapframe->a4;
+
+
+
+}
 
 //
 // handle an interrupt, exception, or system call from user space.
@@ -77,8 +90,21 @@ usertrap(void)
     exit(-1);
 
   // give up the CPU if this is a timer interrupt.
-  if(which_dev == 2)
-    yield();
+  if(which_dev == 2){
+    //todo
+    if(p->ticks > 0){
+        p->ticks_cnt++;
+        if(p->handler_exec == 0 && p->ticks_cnt > p->ticks){
+            p->ticks_cnt = 0;
+            p->tick_epc = p->trapframe->epc;
+            p->handler_exec = 1;
+            store();
+            p->trapframe->epc = p->handler;
+        }
+    }
+
+      yield();
+  }
 
   usertrapret();
 }
