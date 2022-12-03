@@ -69,10 +69,10 @@ usertrap(void)
     // ok
   } else if(r_sstatus() == 13 || r_scause() == 15){
       uint64 va = r_stval();
-      printf("page fault\n");
+      //printf("page fault\n");
       if(is_lazy_alloc_va(va)){
           if(lazy_alloc(va) < 0){
-             // printf("lazy_alloc fail");
+              printf("lazy_alloc fail");
               p->killed = 1;
           }
       }
