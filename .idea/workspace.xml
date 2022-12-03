@@ -15,8 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eec4873c-8c42-4ac6-a556-9180548499e7" name="Changes" comment="定义函数原型">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eec4873c-8c42-4ac6-a556-9180548499e7" name="Changes" comment="结束">
       <change beforePath="$PROJECT_DIR$/kernel/proc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/proc.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kernel/proc.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/proc.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kernel/sysproc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/sysproc.c" afterDir="false" />
@@ -112,7 +111,7 @@
       <workItem from="1669449616678" duration="6893000" />
       <workItem from="1669546998718" duration="599000" />
       <workItem from="1669970520680" duration="7654000" />
-      <workItem from="1670042642150" duration="13718000" />
+      <workItem from="1670042642150" duration="14703000" />
     </task>
     <task id="LOCAL-00001" summary="质数实验">
       <created>1668691338556</created>
@@ -156,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670055505632</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="结束">
+      <created>1670059397803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670059397803</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +197,8 @@
     <MESSAGE value="您需要修改Makefile以使alarmtest.c被编译为xv6用户程序。&#10;&#10;放入user/user.h的正确声明是：" />
     <MESSAGE value="更新user/usys.pl（此文件生成user/usys.S）、kernel/syscall.h和kernel/syscall.c以允许alarmtest调用sigalarm和sigreturn系统调用。" />
     <MESSAGE value="定义函数原型" />
-    <option name="LAST_COMMIT_MESSAGE" value="定义函数原型" />
+    <MESSAGE value="结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="结束" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

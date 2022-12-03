@@ -116,25 +116,24 @@ sys_sigalarm(void)
 }
 
 
-void
-restore()
-{
-    struct proc *p = myproc();
-    p->trapframe->a0 = p->tick_a0;
-
-
-
-
-
-
-}
+//void
+//restore()
+//{
+//    struct proc *p = myproc();
+//    p->trapframe->a0 = p->tick_a0;
+//
+//
+//
+//
+//
+//
+//}
 
 uint64
 sys_sigreturn(void)
 {
     struct proc *p = myproc();
-    p->trapframe->epc = p->tick_epc;
-    restore();
+    memmove(p->trapframe, p->alarm_trapframe, sizeof(struct trapframe));
     p->handler_exec = 0;
     return 0;
 }
