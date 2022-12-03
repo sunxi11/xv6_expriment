@@ -6,13 +6,29 @@
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
+<<<<<<< HEAD
+=======
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c1a86810-a84f-48d9-804c-8aca287e6f7a" name="Changes" comment="" />
+=======
+    <list default="true" id="eec4873c-8c42-4ac6-a556-9180548499e7" name="Changes" comment="另一个版本">
+      <change beforePath="$PROJECT_DIR$/kernel/defs.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/defs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/proc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/proc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/sysproc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/sysproc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/trap.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/trap.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/vm.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/vm.c" afterDir="false" />
+    </list>
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +37,47 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MakefileLocalSettings">
+=======
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="traps" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="xv6-labs-2020" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="xv6-labs-2020" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
@@ -39,7 +92,12 @@
     <option name="majorVersion" value="2022" />
     <option name="minorVersion" value="2.4" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2HllRspqCGlcSGuR1AoWKoQhoOg" />
+=======
+  <component name="ProjectId" id="2HfpVhCBRdUG6qq1qnLW26J7VVM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,14 +110,21 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;/Users/sun/Documents/xv6-labs-2020&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;web.server&quot;
+=======
+    &quot;last_opened_file_path&quot;: &quot;/home/sun/xv6-labs-2020&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="c1a86810-a84f-48d9-804c-8aca287e6f7a" name="Changes" comment="" />
       <created>1668867545482</created>
       <option name="number" value="Default" />
@@ -69,6 +134,79 @@
       <workItem from="1669389742748" duration="10589000" />
       <workItem from="1669806204148" duration="1228000" />
     </task>
+=======
+      <changelist id="eec4873c-8c42-4ac6-a556-9180548499e7" name="Changes" comment="" />
+      <created>1668686018789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668686018789</updated>
+      <workItem from="1668686020448" duration="2139000" />
+      <workItem from="1668691306568" duration="901000" />
+      <workItem from="1668774950537" duration="4111000" />
+      <workItem from="1668997500448" duration="11995000" />
+      <workItem from="1669449616678" duration="6893000" />
+      <workItem from="1669546998718" duration="599000" />
+      <workItem from="1669970520680" duration="7654000" />
+      <workItem from="1670042642150" duration="19861000" />
+    </task>
+    <task id="LOCAL-00001" summary="质数实验">
+      <created>1668691338556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668691338556</updated>
+    </task>
+    <task id="LOCAL-00002" summary="质数实验">
+      <created>1668775128350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668775128350</updated>
+    </task>
+    <task id="LOCAL-00003" summary="xargs 实验">
+      <created>1668780703445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668780703445</updated>
+    </task>
+    <task id="LOCAL-00004" summary="您需要修改Makefile以使alarmtest.c被编译为xv6用户程序。&#10;&#10;放入user/user.h的正确声明是：">
+      <created>1670054944957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670054944957</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新user/usys.pl（此文件生成user/usys.S）、kernel/syscall.h和kernel/syscall.c以允许alarmtest调用sigalarm和sigreturn系统调用。">
+      <created>1670055307620</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670055307621</updated>
+    </task>
+    <task id="LOCAL-00006" summary="定义函数原型">
+      <created>1670055505632</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670055505632</updated>
+    </task>
+    <task id="LOCAL-00007" summary="结束">
+      <created>1670059397803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670059397803</updated>
+    </task>
+    <task id="LOCAL-00008" summary="另一个版本">
+      <created>1670060392709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670060392709</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,21 +217,63 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State />
+=======
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="sunxi/traps" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
           </value>
         </entry>
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="质数实验" />
+    <MESSAGE value="xargs 实验" />
+    <MESSAGE value="您需要修改Makefile以使alarmtest.c被编译为xv6用户程序。&#10;&#10;放入user/user.h的正确声明是：" />
+    <MESSAGE value="更新user/usys.pl（此文件生成user/usys.S）、kernel/syscall.h和kernel/syscall.c以允许alarmtest调用sigalarm和sigreturn系统调用。" />
+    <MESSAGE value="定义函数原型" />
+    <MESSAGE value="结束" />
+    <MESSAGE value="另一个版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="另一个版本" />
+  </component>
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/kernel/trap.c</url>
           <line>36</line>
           <option name="timeStamp" value="1" />
+=======
+          <url>file://$PROJECT_DIR$/kernel/trampoline.S</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+>>>>>>> c999cff893506a99617ce1c95a0c9c0e06928f5d
 </project>
