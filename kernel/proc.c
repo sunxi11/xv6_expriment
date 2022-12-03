@@ -259,7 +259,7 @@ is_lazy_alloc_va(uint64 va){
     if(va >= p->sz){
         return 0;
     }
-    if(va < PGROUNDDOWN(p->trapframe->sp) && p > PGROUNDDOWN(p->trapframe->sp) - PGSIZE){
+    if(va < PGROUNDDOWN(p->trapframe->sp) && va > PGROUNDDOWN(p->trapframe->sp) - PGSIZE){
         return 0;
     }
     return 1;
