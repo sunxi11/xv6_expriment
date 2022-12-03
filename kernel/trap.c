@@ -75,6 +75,9 @@ usertrap(void)
               printf("lazy_alloc fail");
               p->killed = 1;
           }
+      } else{
+          printf("用户进程正在试图访问一个非法的虚拟地址\n");
+          p->killed = 1;
       }
   }
   else {
