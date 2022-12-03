@@ -72,7 +72,7 @@ usertrap(void)
       //printf("page fault\n");
       if(is_lazy_alloc_va(va)){
           if(lazy_alloc(va) < 0){
-              printf("lazy_alloc fail");
+              printf("lazy_alloc fail\n");
               p->killed = 1;
           }
       } else{
