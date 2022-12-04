@@ -101,12 +101,18 @@ walkaddr(pagetable_t pagetable, uint64 va)
     return 0;
 
   pte = walk(pagetable, va, 0);
-  if(pte == 0)
-    return 0;
-  if((*pte & PTE_V) == 0)
-    return 0;
-  if((*pte & PTE_U) == 0)
-    return 0;
+  if(pte == 0 || (*pte & PTE_V) == 0 || (*pte & PTE_U) == 0){
+      if(is_lazy_alloc_va(va)){
+          if(lazy_alloc(va) < 0){
+              return 0;
+          }
+          walkaddr(pagetable, va);
+      }
+
+
+      return 0;
+  }
+
   pa = PTE2PA(*pte);
   return pa;
 }
