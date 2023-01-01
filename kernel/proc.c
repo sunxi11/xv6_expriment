@@ -474,12 +474,17 @@ scheduler(void)
         // Switch to chosen process.  It is the process's job
         // to release its lock and then reacquire it
         // before jumping back to us.
+          scheduler_info("find proc_%d runnable\n", p->pid);
         p->state = RUNNING;
+          scheduler_info("set proc_%d to running\n", p->pid);
         c->proc = p;
+          scheduler_info("save scheduler.ctx, load proc_%d.ctx\n", p->pid);
+          scheduler_info("p-context.ra: %p", p->context.ra);
         swtch(&c->context, &p->context);
 
         // Process is done running for now.
         // It should have changed its p->state before coming back.
+          scheduler_info("proc_%d give up cpu, now scheduler have it\n", myproc()->pid);
         c->proc = 0;
       }
       release(&p->lock);
@@ -499,7 +504,7 @@ scheduler(void)
 // break in the few places where a lock is held but
 // there's no process.
 void
-sched(void)
+ sched(void)
 {
   int intena;
   struct proc *p = myproc();
@@ -514,7 +519,11 @@ sched(void)
     panic("sched interruptible");
 
   intena = mycpu()->intena;
+  info("sched:proc_%d called swtch\n", myproc()->pid);
+  info("sched:&mycpu()->context->ra: %p\n", mycpu()->context.ra);
+  //backtrace();
   swtch(&p->context, &mycpu()->context);
+    info("sched:proc_%d from scheduler to sched\n", myproc()->pid);
   mycpu()->intena = intena;
 }
 
@@ -525,6 +534,7 @@ yield(void)
   struct proc *p = myproc();
   acquire(&p->lock);
   p->state = RUNNABLE;
+  info("yield: set proc_%d state to runnable and call sched\n", myproc()->pid);
   sched();
   release(&p->lock);
 }
